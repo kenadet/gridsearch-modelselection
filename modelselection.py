@@ -93,20 +93,6 @@ test_mse_rf = mean_squared_error(y_test, y_pred_rf)
 print(f"Random Forest Test MSE: {test_mse_rf:.2f}")
 
 
-### Result
-### =============
-# With these results: 
-# Best alpha: 10
-# Best cross-validated MSE: 3975382.24
-# Baseline Test MSE: 10076594.17
-# Ridge Test MSE: 4148799.55
-# Random Forest Test MSE: 3215680.42
-
-# Regularization (Ridge) performsa lot against baseline (41M vs 10M).
-# Nonlinear model (Random Forest) captures structure that linear Ridge cannot.
-# Random Forest is the best model.
-
-
 
 
 
